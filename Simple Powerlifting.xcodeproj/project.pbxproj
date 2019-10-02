@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB01930A1EC83D5E0027671D /* YoutubeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0193091EC83D5E0027671D /* YoutubeConstants.swift */; };
+		EB01930C1EC83D6A0027671D /* YoutubeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01930B1EC83D6A0027671D /* YoutubeClient.swift */; };
+		EB01930F1EC861F40027671D /* MotivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01930E1EC861F40027671D /* MotivationView.swift */; };
+		EB0734741ED7ACE30020805E /* BarbellCalculator .swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0734731ED7ACE30020805E /* BarbellCalculator .swift */; };
+		EB431E101E8D46EA0095BF6B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB431E0E1E8D46EA0095BF6B /* Model.xcdatamodeld */; };
+		EB431E231E8D48860095BF6B /* Bench+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E1D1E8D48860095BF6B /* Bench+CoreDataClass.swift */; };
+		EB431E241E8D48860095BF6B /* Bench+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E1E1E8D48860095BF6B /* Bench+CoreDataProperties.swift */; };
+		EB431E251E8D48860095BF6B /* Deadlift+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E1F1E8D48860095BF6B /* Deadlift+CoreDataClass.swift */; };
+		EB431E261E8D48860095BF6B /* Deadlift+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E201E8D48860095BF6B /* Deadlift+CoreDataProperties.swift */; };
+		EB431E271E8D48860095BF6B /* Squat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E211E8D48860095BF6B /* Squat+CoreDataClass.swift */; };
+		EB431E281E8D48860095BF6B /* Squat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB431E221E8D48860095BF6B /* Squat+CoreDataProperties.swift */; };
+		EBEC33341E7F3C28005F1852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEC33331E7F3C28005F1852 /* AppDelegate.swift */; };
+		EBEC33391E7F3C28005F1852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEC33371E7F3C28005F1852 /* Main.storyboard */; };
+		EBEC333E1E7F3C28005F1852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEC333D1E7F3C28005F1852 /* Assets.xcassets */; };
+		EBEC33411E7F3C28005F1852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEC333F1E7F3C28005F1852 /* LaunchScreen.storyboard */; };
+		EBEC33491E7F3D80005F1852 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEC33481E7F3D80005F1852 /* LoginPageView.swift */; };
+		EBEC334C1E7F4259005F1852 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC334B1E7F4259005F1852 /* Bolts.framework */; };
+		EBEC334E1E7F4276005F1852 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC334D1E7F4276005F1852 /* FBSDKCoreKit.framework */; };
+		EBEC33501E7F4286005F1852 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC334F1E7F4286005F1852 /* FBSDKLoginKit.framework */; };
+		EBEC33521E7F4294005F1852 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC33511E7F4294005F1852 /* FBSDKShareKit.framework */; };
+		EBEC33551E7F48AF005F1852 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC33541E7F48AF005F1852 /* FBSDKCoreKit.framework */; };
+		EBEC33571E7F5820005F1852 /* BarbellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEC33561E7F5820005F1852 /* BarbellView.swift */; };
+		EBEC33711E7F7B50005F1852 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEC33701E7F7B50005F1852 /* CoreDataStack.swift */; };
+		EBEC33751E83ED28005F1852 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEC33741E83ED28005F1852 /* ProgressView.swift */; };
+		EBFB2FDA1EC5882000430A9A /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB2FD91EC5882000430A9A /* GCD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB0193091EC83D5E0027671D /* YoutubeConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeConstants.swift; sourceTree = "<group>"; };
+		EB01930B1EC83D6A0027671D /* YoutubeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeClient.swift; sourceTree = "<group>"; };
+		EB01930E1EC861F40027671D /* MotivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationView.swift; sourceTree = "<group>"; };
+		EB0734731ED7ACE30020805E /* BarbellCalculator .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BarbellCalculator .swift"; sourceTree = "<group>"; };
+		EB431E0F1E8D46EA0095BF6B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EB431E1D1E8D48860095BF6B /* Bench+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bench+CoreDataClass.swift"; path = "../Bench+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB431E1E1E8D48860095BF6B /* Bench+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bench+CoreDataProperties.swift"; path = "../Bench+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB431E1F1E8D48860095BF6B /* Deadlift+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Deadlift+CoreDataClass.swift"; path = "../Deadlift+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB431E201E8D48860095BF6B /* Deadlift+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Deadlift+CoreDataProperties.swift"; path = "../Deadlift+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB431E211E8D48860095BF6B /* Squat+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Squat+CoreDataClass.swift"; path = "../Squat+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB431E221E8D48860095BF6B /* Squat+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Squat+CoreDataProperties.swift"; path = "../Squat+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EBEC33301E7F3C28005F1852 /* Simple Powerlifting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Powerlifting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEC33331E7F3C28005F1852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Simple Powerlifting/AppDelegate.swift"; sourceTree = "<group>"; };
+		EBEC33381E7F3C28005F1852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBEC333D1E7F3C28005F1852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBEC33401E7F3C28005F1852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBEC33421E7F3C28005F1852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEC33481E7F3D80005F1852 /* LoginPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		EBEC334B1E7F4259005F1852 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/FacebookSDKs-iOS-4.17.0/Bolts.framework"; sourceTree = "<group>"; };
+		EBEC334D1E7F4276005F1852 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.17.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		EBEC334F1E7F4286005F1852 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.17.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		EBEC33511E7F4294005F1852 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.17.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		EBEC33531E7F46EB005F1852 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Simple Powerlifting/Bridging-Header.h"; sourceTree = "<group>"; };
+		EBEC33541E7F48AF005F1852 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EBEC33561E7F5820005F1852 /* BarbellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarbellView.swift; sourceTree = "<group>"; };
+		EBEC33701E7F7B50005F1852 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = ../CoreDataStack.swift; sourceTree = "<group>"; };
+		EBEC33741E83ED28005F1852 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = ../ProgressView.swift; sourceTree = "<group>"; };
+		EBFB2FD91EC5882000430A9A /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEC332D1E7F3C28005F1852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEC33551E7F48AF005F1852 /* FBSDKCoreKit.framework in Frameworks */,
+				EBEC33521E7F4294005F1852 /* FBSDKShareKit.framework in Frameworks */,
+				EBEC334C1E7F4259005F1852 /* Bolts.framework in Frameworks */,
+				EBEC334E1E7F4276005F1852 /* FBSDKCoreKit.framework in Frameworks */,
+				EBEC33501E7F4286005F1852 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB01930D1EC83DC10027671D /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				EB01930B1EC83D6A0027671D /* YoutubeClient.swift */,
+				EB0193091EC83D5E0027671D /* YoutubeConstants.swift */,
+			);
+			name = Youtube;
+			sourceTree = "<group>";
+		};
+		EB7FBB3F1ED6AAB50024BFF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB2FD91EC5882000430A9A /* GCD.swift */,
+				EB0734731ED7ACE30020805E /* BarbellCalculator .swift */,
+				EBEC33701E7F7B50005F1852 /* CoreDataStack.swift */,
+				EB431E1D1E8D48860095BF6B /* Bench+CoreDataClass.swift */,
+				EB431E1E1E8D48860095BF6B /* Bench+CoreDataProperties.swift */,
+				EB431E1F1E8D48860095BF6B /* Deadlift+CoreDataClass.swift */,
+				EB431E201E8D48860095BF6B /* Deadlift+CoreDataProperties.swift */,
+				EB431E221E8D48860095BF6B /* Squat+CoreDataProperties.swift */,
+				EB431E211E8D48860095BF6B /* Squat+CoreDataClass.swift */,
+				EB7FBB421ED6AAF10024BFF0 /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EB7FBB401ED6AAC30024BFF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBEC33481E7F3D80005F1852 /* LoginPageView.swift */,
+				EBEC33741E83ED28005F1852 /* ProgressView.swift */,
+				EBEC33561E7F5820005F1852 /* BarbellView.swift */,
+				EB01930E1EC861F40027671D /* MotivationView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EB7FBB411ED6AAC70024BFF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EB7FBB421ED6AAF10024BFF0 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				EB01930D1EC83DC10027671D /* Youtube */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		EB7FBB431ED6AB500024BFF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EBEC33371E7F3C28005F1852 /* Main.storyboard */,
+				EBEC333F1E7F3C28005F1852 /* LaunchScreen.storyboard */,
+				EBEC333D1E7F3C28005F1852 /* Assets.xcassets */,
+				EBEC33421E7F3C28005F1852 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		EBEC33271E7F3C28005F1852 = {
+			isa = PBXGroup;
+			children = (
+				EBEC33331E7F3C28005F1852 /* AppDelegate.swift */,
+				EBEC33531E7F46EB005F1852 /* Bridging-Header.h */,
+				EB431E0E1E8D46EA0095BF6B /* Model.xcdatamodeld */,
+				EBEC33321E7F3C28005F1852 /* Simple Powerlifting */,
+				EBEC33311E7F3C28005F1852 /* Products */,
+				EBEC334A1E7F3F84005F1852 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEC33311E7F3C28005F1852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEC33301E7F3C28005F1852 /* Simple Powerlifting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEC33321E7F3C28005F1852 /* Simple Powerlifting */ = {
+			isa = PBXGroup;
+			children = (
+				EB7FBB3F1ED6AAB50024BFF0 /* Model */,
+				EB7FBB411ED6AAC70024BFF0 /* View */,
+				EB7FBB401ED6AAC30024BFF0 /* Controller */,
+				EB7FBB431ED6AB500024BFF0 /* Assets */,
+			);
+			path = "Simple Powerlifting";
+			sourceTree = "<group>";
+		};
+		EBEC334A1E7F3F84005F1852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEC33541E7F48AF005F1852 /* FBSDKCoreKit.framework */,
+				EBEC33511E7F4294005F1852 /* FBSDKShareKit.framework */,
+				EBEC334F1E7F4286005F1852 /* FBSDKLoginKit.framework */,
+				EBEC334D1E7F4276005F1852 /* FBSDKCoreKit.framework */,
+				EBEC334B1E7F4259005F1852 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			path = "Simple Powerlifting";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEC332F1E7F3C28005F1852 /* Simple Powerlifting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEC33451E7F3C28005F1852 /* Build configuration list for PBXNativeTarget "Simple Powerlifting" */;
+			buildPhases = (
+				EBEC332C1E7F3C28005F1852 /* Sources */,
+				EBEC332D1E7F3C28005F1852 /* Frameworks */,
+				EBEC332E1E7F3C28005F1852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Powerlifting";
+			productName = "Simple Powerlifting";
+			productReference = EBEC33301E7F3C28005F1852 /* Simple Powerlifting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEC33281E7F3C28005F1852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chillmo;
+				TargetAttributes = {
+					EBEC332F1E7F3C28005F1852 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EBEC332B1E7F3C28005F1852 /* Build configuration list for PBXProject "Simple Powerlifting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEC33271E7F3C28005F1852;
+			productRefGroup = EBEC33311E7F3C28005F1852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEC332F1E7F3C28005F1852 /* Simple Powerlifting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEC332E1E7F3C28005F1852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEC33411E7F3C28005F1852 /* LaunchScreen.storyboard in Resources */,
+				EBEC333E1E7F3C28005F1852 /* Assets.xcassets in Resources */,
+				EBEC33391E7F3C28005F1852 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEC332C1E7F3C28005F1852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFB2FDA1EC5882000430A9A /* GCD.swift in Sources */,
+				EB431E231E8D48860095BF6B /* Bench+CoreDataClass.swift in Sources */,
+				EB431E261E8D48860095BF6B /* Deadlift+CoreDataProperties.swift in Sources */,
+				EBEC33711E7F7B50005F1852 /* CoreDataStack.swift in Sources */,
+				EB01930A1EC83D5E0027671D /* YoutubeConstants.swift in Sources */,
+				EB01930F1EC861F40027671D /* MotivationView.swift in Sources */,
+				EB0734741ED7ACE30020805E /* BarbellCalculator .swift in Sources */,
+				EB431E281E8D48860095BF6B /* Squat+CoreDataProperties.swift in Sources */,
+				EB431E241E8D48860095BF6B /* Bench+CoreDataProperties.swift in Sources */,
+				EBEC33571E7F5820005F1852 /* BarbellView.swift in Sources */,
+				EB431E271E8D48860095BF6B /* Squat+CoreDataClass.swift in Sources */,
+				EB01930C1EC83D6A0027671D /* YoutubeClient.swift in Sources */,
+				EB431E101E8D46EA0095BF6B /* Model.xcdatamodeld in Sources */,
+				EB431E251E8D48860095BF6B /* Deadlift+CoreDataClass.swift in Sources */,
+				EBEC33341E7F3C28005F1852 /* AppDelegate.swift in Sources */,
+				EBEC33491E7F3D80005F1852 /* LoginPageView.swift in Sources */,
+				EBEC33751E83ED28005F1852 /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBEC33371E7F3C28005F1852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEC33381E7F3C28005F1852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBEC333F1E7F3C28005F1852 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEC33401E7F3C28005F1852 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEC33431E7F3C28005F1852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEC33441E7F3C28005F1852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEC33461E7F3C28005F1852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				INFOPLIST_FILE = "Simple Powerlifting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chillmo.Simple-Powerlifting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simple Powerlifting/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBEC33471E7F3C28005F1852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				INFOPLIST_FILE = "Simple Powerlifting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chillmo.Simple-Powerlifting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simple Powerlifting/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEC332B1E7F3C28005F1852 /* Build configuration list for PBXProject "Simple Powerlifting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEC33431E7F3C28005F1852 /* Debug */,
+				EBEC33441E7F3C28005F1852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEC33451E7F3C28005F1852 /* Build configuration list for PBXNativeTarget "Simple Powerlifting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEC33461E7F3C28005F1852 /* Debug */,
+				EBEC33471E7F3C28005F1852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB431E0E1E8D46EA0095BF6B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB431E0F1E8D46EA0095BF6B /* Model.xcdatamodel */,
+			);
+			currentVersion = EB431E0F1E8D46EA0095BF6B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBEC33281E7F3C28005F1852 /* Project object */;
+}
